@@ -1,0 +1,55 @@
+{
+  "id": "greyhound",
+  "displayName": "西兰花宝宝",
+  "description": "一只带小叶子的可爱西兰花桌宠。",
+  "version": "1.0.0",
+  "author": "Oceana",
+  "license": "CC-BY-4.0",
+  "minAppVersion": "0.2.0",
+  "tags": [
+    "西兰花",
+    "可爱",
+    "绿色"
+  ],
+  "behavior": {
+    "clickState": "waving",
+    "doubleClickState": "jumping",
+    "idleStates": [
+      "idle",
+      "waiting",
+      "review"
+    ],
+    "wanderDirections": [
+      -1,
+      1,
+      0
+    ],
+    "natural": {
+      "nextWanderDelayMs": [
+        4800,
+        9800
+      ],
+      "idleDurationMs": [
+        1800,
+        4200
+      ],
+      "walkDurationMs": [
+        2600,
+        5600
+      ],
+      "edgePauseMs": [
+        800,
+        1800
+      ],
+      "edgePauseStates": [
+        "waiting",
+        "review"
+      ],
+      "postDragState": "waiting",
+      "postDragMs": 900,
+      "clickReturnState": "idle",
+      "doubleClickReturnState": "idle"
+    }
+  },
+  "spritesheetPath": "spritesheet.webp"
+}
